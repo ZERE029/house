@@ -9,19 +9,15 @@
     <title>pagina2</title>
 </head>
 <body>
-    <div class="container">
-        <div class="card text-bg-light mb-3" style="max-width: 18rem;">
-            <div class="card-body">
-                <h1>Resultado final</h1>
-                <form action="index.php" method= "get">
-                    <p><b>Login recebido foi:</b><?php echo $_GET["login"];?></p>
-                    <p><b>Email recebido foi:</b><?php echo $_GET["email"];?></p>
-                    <br/>
-                    <input class="btn btn-primary" type="submit" value="voltar" >
-                </form>
+    <div>
+        <h1>Resultado final</h1>
+        <form action="index.php" method= "get">
+            <p><b>Email recebido foi:</b><?php echo $_GET["Email"];?></p>
+            <p><b>Senha recebida foi:</b><?php echo $_GET["senha"];?></p>
+            <br/>
+            <input class="btn btn-primary" type="submit" value="voltar" >
+        </form>
 
-            </div>
-        </div>
     </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>

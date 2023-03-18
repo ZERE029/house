@@ -9,21 +9,17 @@
     <title>pagina1</title>
 </head>
 <body>
-    <div class="container">
-        <div class="card text-bg-light mb-3" style="max-width: 18rem;">
-                <div class="card-body">
-                    <h1>Faça seu login</h1>
-                    <form action="pagina.php" method= "get">
-                        <label>Login:</label>
-                        <input type="text" name="login"/><br/><br/>
-                        <label>Email:</label>
-                        <input type="text" name="email"/><br/><br/>
-                        <input class="btn btn-success" type="submit" value="entrar" >
-                        <input class="btn btn-danger" type="reset" value="limpar">
-                    </form>
-                </div>
-        </div>
+    <div>
+            <h1>Faça seu login</h1>
+        <form action="pagina.php" method= "get">
+                <label>Email:</label>
+            <input type="text" name="Email" placeholder="Email" required maxlength="25"><br/><br/>
+            <label>Senha:</label>
+            <input type="password" name="senha" placeholder="Senha" required maxlength="20"> <br/><br/>
+            <input class="btn btn-success" type="submit" value="entrar" >
+             <input class="btn btn-danger" type="reset" value="limpar">
+        </form>
     </div>
-</body>
+ </body>
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </html>
