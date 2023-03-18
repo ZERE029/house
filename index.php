@@ -11,13 +11,12 @@
 <body>
     <div>
             <h1>Faça seu login</h1>
-        <form action="pagina.php" method= "get">
-                <label>Email:</label>
+        <form action="pagina2.php" method= "get">
             <input type="text" name="Email" placeholder="Email" required maxlength="25"><br/><br/>
-            <label>Senha:</label>
             <input type="password" name="senha" placeholder="Senha" required maxlength="20"> <br/><br/>
             <input class="btn btn-success" type="submit" value="entrar" >
              <input class="btn btn-danger" type="reset" value="limpar">
+             <a class="btn btn-warning" href="cadastro.php" role="button">Cadastre-se</a>
         </form>
     </div>
  </body>

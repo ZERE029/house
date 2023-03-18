@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <link rel="stylesheet" href="cub.css">
-    <title>pagina2</title>
+    <title>pagina3</title>
 </head>
 <body>
     <div>
@@ -14,9 +14,6 @@
         <form action="index.php" method= "get">
             <p><b>Email recebido foi:</b><?php echo $_GET["Email"];?></p>
             <p><b>Senha recebida foi:</b><?php echo $_GET["senha"];?></p>
-            <p><b>Nome recebido foi:</b><?php echo $_GET["Nome"];?></p>
-            <p><b>Idade recebida foi:</b><?php echo $_GET["Idade"];?></p>
-            <p><b>CPF recebido foi:</b><?php echo $_GET["CPF"];?></p>
             <br/>
             <input class="btn btn-primary" type="submit" value="voltar" >
         </form>
