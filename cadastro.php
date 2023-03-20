@@ -16,6 +16,7 @@
             <input type="text" name="Sobrenome" placeholder="Sobrenome" required maxlength="25"><br/><br/>
             <input type="text" name="Idade" placeholder="Idade" pattern="[0-9]{2}" required min="18" max="80" maxlength="15"><br/><br/>
             <input type="text" name="CPF" placeholder="CPF" pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}" maxlength="14" required><br><br>
+            <input type="text" name="CEP" placeholder="CEP" pattern="[0-9]{5}-[0-9]{3}" maxlength="14" required><br><br>
             <input type="text" name="Email" placeholder="Email" required maxlength="25"><br/><br/>
             <input type="password" name="senha" placeholder="Senha" required maxlength="20"> <br/><br/>
             <input class="btn btn-success" type="submit" value="entrar" >

@@ -13,10 +13,10 @@
         <h1>Resultado final</h1>
         <form action="index.php" method= "get">
             <p><b>Email recebido foi:</b><?php echo $_GET["Email"];?></p>
-            <p><b>Senha recebida foi:</b><?php echo $_GET["senha"];?></p>
             <p><b>Nome recebido foi:</b><?php echo $_GET["Nome"];?></p>
             <p><b>Idade recebida foi:</b><?php echo $_GET["Idade"];?></p>
             <p><b>CPF recebido foi:</b><?php echo $_GET["CPF"];?></p>
+            <p><b>CEP recebido foi:</b><?php echo $_GET["CEP"];?></p>
             <br/>
             <input class="btn btn-primary" type="submit" value="voltar" >
         </form>

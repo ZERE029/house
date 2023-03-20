@@ -13,7 +13,6 @@
         <h1>Resultado final</h1>
         <form action="index.php" method= "get">
             <p><b>Email recebido foi:</b><?php echo $_GET["Email"];?></p>
-            <p><b>Senha recebida foi:</b><?php echo $_GET["senha"];?></p>
             <br/>
             <input class="btn btn-primary" type="submit" value="voltar" >
         </form>
