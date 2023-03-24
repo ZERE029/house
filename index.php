@@ -9,6 +9,9 @@
     <title>pagina1</title>
 </head>
 <body>
+    <?php
+        include ("menu.php");
+    ?>
     <div>
             <h1>Faça seu login</h1>
         <form action="pagina2.php" method= "get">

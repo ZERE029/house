@@ -9,6 +9,9 @@
     <title>pagina2</title>
 </head>
 <body>
+<?php
+        include ("menu.php");
+    ?>
     <div>
         <h1>Resultado final</h1>
         <form action="index.php" method= "get">
