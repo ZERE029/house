@@ -1,5 +1,5 @@
 
-<nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+<nav class="navbar fixed-absolute navbar-expand-sm navbar-dark bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Corinthians</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
