@@ -8,7 +8,7 @@ body{
 div{
     background-color: rgba(0, 0, 0, 0.9);
     position: absolute ;
-    top: 45%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     padding: 40px;
@@ -19,3 +19,8 @@ input{
     border: none;
     outline: none;
 }
+#menu{
+    margin-top: -740px;
+    position: relative;
+}
+
