@@ -13,6 +13,7 @@
         include ("menu.php");
     ?>
 <div>
+<img src="img/logo.jpg" alt="" width="400">
             <h1>Faça seu Cadastro</h1>
         <form action="pagina.php" method= "get">
             <input type="text" name="Nome" placeholder="Nome" required maxlength="15"><br/><br/>
