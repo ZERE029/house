@@ -1,0 +1,319 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: burlywood;
+
+
+}
+
+li {
+  list-style: none;
+
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.navbar {
+  min-height: 70px;
+  display: flex;  
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 34px;
+}
+
+
+
+
+.nav-link {
+  position: relative;
+  font-size: 20px;
+  color: #6B4B21;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 30px;
+
+ }
+.nav-link-bebi{
+  position: relative;
+  font-size: 20px;
+  color: #6B4B21;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 30px;
+  
+ 
+}
+.nav-link-conta {
+  position: relative;
+  font-size: 20px;
+  color: #6B4B21;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+
+
+
+
+.nav-link::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #000;
+  transition: .3s;
+}
+
+.nav-link:hover::before {
+  width: 95%;
+}
+
+#nav-link:hover::before {
+  width: 90%;
+}
+
+#nav-link2:hover::before {
+  width: 72%;
+}
+
+
+
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+
+  gap: 60px;
+}
+
+.hambug {
+  display: none;
+  cursor: pointer;
+  border: solid;
+  border-width: 1px;
+  border-color: #fff;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.bar {
+  display: block;
+  width: 28px;
+  height: 3px;
+  border-radius: 2px;
+  margin: 5px auto;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 870px) {
+
+
+  .nav-link-bebi{
+    position: relative;
+    font-size: 20px;
+    color: #6B4B21;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 5px;
+
+   
+  }
+  .nav-link-conta {
+    position: relative;
+    font-size: 20px;
+    color: #6B4B21;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+    
+    
+  }
+  
+
+
+  .hambug {
+    display: block;
+    z-index: 999;
+  }
+
+  .dropdown-bebidas:hover ~ .dropdown{
+    display: none;
+   
+  }
+
+  .hambug.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hambug.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hambug.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    margin-top: 100px;
+    left: -100%;
+    gap: 0;
+    border-radius: 0 0 20px 20px;
+    background-color: burlywood;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    transition: 0.3s;
+   padding: 60px;
+    
+    z-index: 999;
+  }
+
+  .nav-item {
+    margin: 15px 0;
+    margin-left: -30px;
+
+  }
+
+
+  .dropdown-menu {
+    background-color: #fff;
+    position: absolute;
+    box-shadow: 0 0 2px;
+    border-radius: 6px;
+  
+    position: relative; /* Isso é necessário quando se usa z-index */
+    z-index: 999; /* Defina um valor alto para garantir que seja a camada mais superior */
+  
+  
+    display: none;
+  }
+
+
+  .nav-menu.active {
+    left: 0;
+  }
+}
+
+/*dropdown-menu   bebidas*/
+.dropdown-menu {
+  background-color: #fff;
+  position: absolute;
+  box-shadow: 0 0 2px;
+  border-radius: 6px;
+
+  
+
+  display: none;
+}
+
+/*dropdown da minha conta*/
+.dropdown {
+  position: relative;
+  font-size: 20px;
+  color: #6B4B21;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
+  display: block;
+
+  margin: 15px 0;
+}
+
+
+.dropdown::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #000;
+  transition: .3s;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+
+}
+
+/*fim*/
+
+
+.dropdown-bebidas {
+  position: relative;
+  font-size: 20px;
+  color: #6B4B21;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
+  display: block;
+
+  margin: 15px 0;
+}
+
+.dropdown-bebidas::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #000;
+  transition: .3s;
+}
+
+
+.dropdown-bebidas:hover .dropdown-menu{
+  display: block;
+
+}
+
+.dropdown-menu a {
+  padding: 10px;
+  display: block;
+  margin: 10px 0;
+}
+
+
+
+
+
+
+/* TEXTO DA LOGO */
+#Texto_da_logo {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #6B4B21;
+  font-size: 34px;
+  text-decoration: none;
+
+}
+
+#Texto_da_logo:hover {
+  color: white;
+}
+
+.logo-img {
+  width: 78px;
+  /* Defina o tamanho desejado para a largura */
+  height: auto;
+  /* A altura será ajustada proporcionalmente com base na largura */
+}
+
+
+
+
+
+

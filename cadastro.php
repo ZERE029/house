@@ -9,11 +9,10 @@
     <title>Cadastro</title>
 </head>
 <body>
-    <div class="container">
-    <?php
+<?php
         include ("menu.php");
     ?>
-<div>
+    <div>
             <h1>Faça seu Cadastro</h1>
         <form action="pagina.php" method= "get">
             <input type="text" name="Nome" placeholder="Nome" required maxlength="15"><br/><br/>
