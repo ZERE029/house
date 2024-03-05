@@ -69,36 +69,45 @@
 
 }
 
-#divo,
-#divo3,
-#divo4,
-#divo5 {
-    border-radius: 50px;
-    background-image: linear-gradient(45deg, rgb(6, 100, 3), rgb(233, 199, 6));
-    padding: 220px;
-    width: 15px;
 
+
+
+/*---------------BOTAO--------------------------*/
+body.dark {
+    background-color: #333;
+    color: #fff;
 }
-
-#divo1 {
-    border-radius: 50px;
-    background-image: linear-gradient(45deg, rgb(6, 100, 3), rgb(233, 199, 6));
-    padding: 220px;
-    width: 15px;
+.chox{
+    opacity: 0;
+    position: absolute;
 }
-
-#divo2 {
+.label{
+    background-color: rgb(92, 90, 90);
     border-radius: 50px;
-    background-image: linear-gradient(45deg, rgb(6, 100, 3), rgb(233, 199, 6));
-    padding: 220px;
-    width: 15px;
-    transition: padding 0.3s;
-    
+    cursor: pointer;
+
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    width: 40px;
+    height: 20px;
+    transform: scale(1.5);
 }
-
-#divo2:hover {
-    border-radius: 50px;
-    background-image: linear-gradient(45deg, rgb(5, 82, 2), rgb(280, 233, 6));
-    padding: 224px;
-    width: 15px;
+.label .bol{
+background-color: rgb(251, 255, 0);
+border-radius: 50%;
+position: absolute;
+top: 2px;
+left: 2px;
+height: 16px;
+width: 16px;
+transform: translateX(0px);
+transition: transform 0.2s linear;
+}
+.chox:checked + .label .bol {
+    background-color: rgb(141, 141, 141);
+    transform: translateX(20px);
+}
+#modo{
+    color: #fff;
 }
