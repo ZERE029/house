@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lembrete</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body{
+    background-color: rgb(102, 173, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+</style>
+<body>
+    <div class="continer">
+        <form action="index.html" method="get">
+            <label class="lab" for="dataInput">Selecione a data para o lembrete: </label>
+            <input class="ipt" type="date" id="dataInput"> <br> <br>
+
+            <label class="lab" for="horaInput">Selecione a hora para o lembrete: </label>
+            <input class="ipt" type="time" id="horaInput"> <br> <br>
+
+            <label class="lab" for="mensagemInput">Insira o nome da mensagem: </label>
+            <input class="ipt" type="text" id="mensagemInput" placeholder="Mensagem do lembrete"> <br> <br>
+            <p id="aviso"></p>
+            <a href="bol.html"  id="but" onclick="agendarLembrete()">Agendar Lembrete</a >
+               
+        </form>
+
+    </div>
+
+    <!--javascript-->
+    <script src="zere.js"></script>
+</body>
+
+</html>
