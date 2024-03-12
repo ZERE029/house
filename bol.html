@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/nav.css">
     <style>
@@ -30,8 +32,6 @@
 </head>
 
 <body>
-
-
     <header>
         <nav class="navbar">
             <span id="Texto_da_logo">
@@ -39,23 +39,100 @@
             </span>
             <li class="nav-item"><a href="bol.html" class="nav-link">FILMES</a></li>
             <li class="nav-item"><a href="serie.html" class="nav-link">SÉRIES</a></li>
-                <div class="bol"></div>
+            <div class="bol"></div>
             </label>
             <li class="dropdown">
                 <a href="#" class="dropbtn">Configurações</a>
                 <div class="dropdown-content">
                     <label class="labi" for="">modo escuro</label>
-                    <input onclick="clicar()" type="radio" class="chox" id="chk" name="botao">
+                    <input onclick="clicar()" type="radio" class="chox" id="chk" name="bota">
                     <label class="labi" for="">modo claro</label>
-                    <input onclick="clicou()" type="radio" class="chox" id="ctk" >
+                    <input onclick="clicou()" type="radio" class="chox" id="ctk" name="bota">
                 </div>
-              </li>
+            </li>
         </nav>
     </header>
 
+<div class="container">
+    <h1 class="mt-5 mb-4">Filmes</h1>
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card" style="width: 18rem;">
+                <img class="img" src="img/Batman_v_Superman_-_Poster_cinema.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+            <div class="card" style="width: 18rem;">
+                <img class="img" src="img/spider.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                        of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-4 mb-4">
+            <div class="card" style="width: 18rem;">
+                <img class="img" src="img/457312.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the
+                        bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card" style="width: 18rem;">
+                <img class="img" src="img/bat.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the
+                        bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card" style="width: 18rem;">
+                <img class="img" src="img/rocky1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the
+                        bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="img" src="img/gigantes.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the
+                            bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+           
+    </div>
+</div>
+   
+
 
     <footer>
-       <p>NETFLIXO-2024-ATUALIZADO</p>
+        <p>NETFLIXO-2024-ATUALIZADO</p>
     </footer>
 
     <!--------------------------------------------------------------------------------------------------------------->
@@ -63,5 +140,8 @@
     <!--------------------------------------------------------------------------------------------------------------->
     <script src="timao.js"></script>
 </body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 </html>

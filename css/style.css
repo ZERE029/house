@@ -1,3 +1,16 @@
+.card-body{
+  text-align: center;
+  border-radius: 30px ;
+
+  transition:  0.5s;
+}
+.card:hover{
+ transform: scale(1.05);
+}
+.img{
+  height: 450px;
+  width: 285px;
+}
 .ipt {
     width: 100%;
     padding: 10px;
@@ -13,6 +26,7 @@
     font-size: 25px;
 }
 footer {
+  display: flex;
     background-color: #333;
     color: white;
     text-align: center;
@@ -22,6 +36,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    max-width: 100%;
   }
 .continer {
     font-size: large;
@@ -126,3 +141,4 @@ li a, .dropbtn {
   .dropdown:hover .dropdown-content {
     display: block;
   }
+

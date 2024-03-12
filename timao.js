@@ -1,9 +1,11 @@
 const chk = document.getElementById('chk')
-var corDestaque = getComputedStyle(document.documentElement).getPropertyValue('--cor-destaque');
 const ctk = document.getElementById('ctk')
+const carts = document.getElementById("card")
 chk.addEventListener('click',clicar)
 function clicar(){
     document.body.style.backgroundColor = "black"
+    document.body.style.color = "white"
+    carts = body.syle.backgroundColor = "black"
 }
 ctk.addEventListener('click',clicou)
 function clicou(){
