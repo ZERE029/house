@@ -1,5 +1,5 @@
-const chk = document.getElementById('chk')
-const ctk = document.getElementById('ctk')
+const escuro = document.getElementById('escuro')
+const claro = document.getElementById('claro')
 const carts = document.querySelectorAll(".card")
 function clicar(){
     document.body.style.backgroundColor = "black"
